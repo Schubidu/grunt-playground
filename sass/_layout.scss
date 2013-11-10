@@ -1,0 +1,20 @@
+body {
+  background: #ff0;
+}
+
+h1 {
+  font-size: 12px;
+  color: #F00;
+  line-height: 1.1;
+
+  @include styleLanguage('de') {
+    font-size: 17px;
+    background: #2F6FAc;
+
+  }
+}
+
+span {
+  background: #f4f4f6;
+  color: #00ff00;
+}
